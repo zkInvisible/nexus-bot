@@ -1,4 +1,5 @@
-(function autoClick() {
+
+    (function autoClick() {
     const targetSelector = '.relative.w-24.h-16.rounded-full.cursor-pointer';
     const checkInterval = 2000; // Check every 2 seconds
 
@@ -21,4 +22,5 @@
     }
 
     setInterval(checkAndClick, checkInterval);
-})();
+    })();
+
